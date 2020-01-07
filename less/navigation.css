@@ -15,10 +15,13 @@
   text-align: center;
   padding-bottom: 2% ;
 }
-a:hover {
+a {
   text-decoration: none;
   color: gray;
   font-size: 18px;
   margin-right: 38px;
   background-color: skyblue;
+}
+a:hover {
+  color: skyblue;
 }
