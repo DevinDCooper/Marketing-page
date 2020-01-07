@@ -130,6 +130,7 @@ html {
 }
 html,
 body {
+  height: 100%;
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
@@ -159,11 +160,20 @@ a {
   color: gray;
   font-size: 18px;
   margin-right: 38px;
+  background-color: skyblue;
+}
+a:hover {
+  color: skyblue;
 }
 footer {
+  color: #22283B;
+  background: #f4f4f4;
+  padding: 20px 0;
+  border: 1px double #e0e0e0;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
-  font-size: 50px;
+  align-items: center;
 }
 .home {
   height: 30rem;
@@ -186,11 +196,10 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding: 2px;
+  padding-bottom: 5px;
 }
 .about-cards {
-  border-block-color: rgba(0, 0, 0, 0.513);
-  border-size: 2px;
+  height: 100%;
 }
 .about-cards h5 {
   font-size: 2rem;
