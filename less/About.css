@@ -1,0 +1,36 @@
+.home {
+  height: 30rem;
+  width: 100%;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+.Us {
+  padding: 20px;
+}
+.Team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 2px;
+}
+.about-cards {
+  border-block-color: rgba(0, 0, 0, 0.513);
+  border-size: 2px;
+}
+.about-cards h5 {
+  font-size: 2rem;
+}
+.about-cards p {
+  font-size: 1.5rem;
+}
+.about-cards .Photo {
+  height: 20rem;
+}

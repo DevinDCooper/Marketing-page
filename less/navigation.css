@@ -1,0 +1,24 @@
+.nav-less {
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+  padding-bottom: 10px;
+  padding-top: 30px;
+  width: 110%;
+}
+.nav-less h1 {
+  font-size: 4rem ;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.nav-less nav {
+  text-align: center;
+  padding-bottom: 2% ;
+}
+a:hover {
+  text-decoration: none;
+  color: gray;
+  font-size: 18px;
+  margin-right: 38px;
+  background-color: skyblue;
+}
