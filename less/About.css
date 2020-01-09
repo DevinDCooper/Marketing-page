@@ -19,11 +19,10 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding: 2px;
+  padding-bottom: 5px;
 }
 .about-cards {
-  border-block-color: rgba(0, 0, 0, 0.513);
-  border-size: 2px;
+  height: 100%;
 }
 .about-cards h5 {
   font-size: 2rem;
